@@ -4,7 +4,7 @@
 use dotenvy::dotenv;
 use std::env;
 
-use crate::Google;
+use async_google_auth::Google;
 
 fn main() {
     dotenv().ok();
